@@ -1,4 +1,4 @@
-package com.example.cryptocurrencykotlin.data
+package com.example.cryptocurrencykotlin.controller.api
 
 import com.google.gson.JsonObject
 import retrofit2.Call

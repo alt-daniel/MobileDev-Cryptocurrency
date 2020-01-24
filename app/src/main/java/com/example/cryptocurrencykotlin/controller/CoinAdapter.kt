@@ -1,20 +1,15 @@
-package com.example.cryptocurrencykotlin.data
+package com.example.cryptocurrencykotlin.controller
 
 import android.content.Context
 import android.graphics.Color
-import android.icu.text.DecimalFormat
-import android.icu.text.DecimalFormatSymbols
-import android.icu.text.NumberFormat
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.cryptocurrencykotlin.R
+import com.example.cryptocurrencykotlin.controller.api.Coin
 import kotlinx.android.synthetic.main.item_coin.view.*
-import java.math.BigDecimal
-import java.util.*
-import kotlin.math.roundToInt
 
 class CoinAdapter (private val coinList: List<Coin>, private val onClick: (Coin) -> Unit) :  RecyclerView.Adapter<CoinAdapter.Viewholder>() {
 

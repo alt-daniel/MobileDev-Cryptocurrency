@@ -6,10 +6,9 @@ import android.os.Bundle
 import android.widget.TextView
 import com.bumptech.glide.Glide
 import com.example.cryptocurrencykotlin.R
-import com.example.cryptocurrencykotlin.data.Coin
+import com.example.cryptocurrencykotlin.controller.api.Coin
 import com.example.cryptocurrencykotlin.ui.Fragments.COIN
 import kotlinx.android.synthetic.main.activity_detail.*
-import kotlinx.android.synthetic.main.activity_home.*
 
 class DetailActivity : AppCompatActivity() {
 

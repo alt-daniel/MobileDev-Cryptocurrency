@@ -1,10 +1,8 @@
-package com.example.cryptocurrencykotlin.data
+package com.example.cryptocurrencykotlin.controller.api
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.Parcelize
-import kotlinx.android.parcel.RawValue
-
 
 @Parcelize
 data class Coin(
@@ -19,6 +17,10 @@ data class Coin(
 ) : Parcelable {
     fun getLogofromUrl() : String {
         return "https://s2.coinmarketcap.com/static/img/coins/64x64/${id}.png"
+    }
+
+    override fun toString(): String {
+        return name
     }
 }
 

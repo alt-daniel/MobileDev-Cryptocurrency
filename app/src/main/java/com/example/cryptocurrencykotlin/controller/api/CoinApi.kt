@@ -1,4 +1,4 @@
-package com.example.cryptocurrencykotlin.data
+package com.example.cryptocurrencykotlin.controller.api
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

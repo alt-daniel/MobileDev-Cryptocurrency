@@ -3,8 +3,8 @@ package com.example.cryptocurrencykotlin.model
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import com.example.cryptocurrencykotlin.data.Coin
-import com.example.cryptocurrencykotlin.data.CoinsRepository
+import com.example.cryptocurrencykotlin.controller.api.Coin
+import com.example.cryptocurrencykotlin.controller.api.CoinsRepository
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonObject
 import retrofit2.Call
