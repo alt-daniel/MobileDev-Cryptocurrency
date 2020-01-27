@@ -6,4 +6,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_add">Add Activity</string>
+
+    <string-array name="coins">
+        <item>BTC</item>
+        <item>ETH</item>
+        <item>XRP</item>
+        <item>BCH</item>
+        <item>BSV</item>
+        <item>OMNI</item>
+        <item>LTC</item>
+        <item>EOS</item>
+    </string-array>
 </resources>

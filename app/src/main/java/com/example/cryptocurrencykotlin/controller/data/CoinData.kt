@@ -8,5 +8,6 @@ data class CoinData(
     var name: String,
     @PrimaryKey(autoGenerate = false)
     var id: Int,
-    var price: Double
+    var price: Double,
+    var amount: Double
 )

@@ -1,4 +1,4 @@
-package com.example.cryptocurrencykotlin.controller.api
+package com.example.cryptocurrencykotlin.controller.listingsApi
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

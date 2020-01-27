@@ -6,4 +6,4 @@
     android:ellipsize="marquee"
     android:singleLine="true"
     android:textAlignment="inherit"
-    android:textColor="#E91E63" />
+    android:textColor="#FF0707"/>

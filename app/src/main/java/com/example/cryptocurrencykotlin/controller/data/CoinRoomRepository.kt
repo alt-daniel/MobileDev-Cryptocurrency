@@ -30,4 +30,5 @@ class CoinRoomRepository(context: Context) {
     suspend fun deletePortfolio() {
         return coinDao.deletePortfolio()
     }
+
 }

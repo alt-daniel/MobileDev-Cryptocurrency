@@ -1,19 +1,16 @@
 package com.example.cryptocurrencykotlin.controller.data
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 
 @Dao
 interface CoinDao {
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertCoinInPortfolio(coinData: CoinData)
 
     @Query("Select * From coin_table")
-    fun getAllCoinsInPortfolio() : LiveData<List<CoinData>>
+    fun getAllCoinsInPortfolio(): LiveData<List<CoinData>>
 
     @Delete
     suspend fun deleteCoinfromPortfolio(coinData: CoinData)

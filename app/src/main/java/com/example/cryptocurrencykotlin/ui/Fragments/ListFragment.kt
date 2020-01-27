@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 import com.example.cryptocurrencykotlin.R
-import com.example.cryptocurrencykotlin.controller.api.Coin
+import com.example.cryptocurrencykotlin.controller.listingsApi.Coin
 import com.example.cryptocurrencykotlin.controller.CoinAdapter
 import com.example.cryptocurrencykotlin.model.MainActivityViewModel
 import com.example.cryptocurrencykotlin.ui.DetailActivity
